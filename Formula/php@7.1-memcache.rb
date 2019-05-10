@@ -8,7 +8,7 @@ class PhpAT71Memcache < PhpExtensionFormula
 
   def install
     system php_parent.bin/"phpize"
-    system "./configure", *configure_args
+    system "./configure", *configure_args, "--with-zlib-dir=#{Formula["zlib"].opt_prefix}"
     system "make"
     (lib/module_path).install "modules/#{extension}.so"
   end
