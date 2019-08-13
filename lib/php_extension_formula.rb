@@ -5,7 +5,6 @@ class PhpExtensionFormula < Formula
   end
 
   def install
-    cd "ext/#{extension}"
     system php_parent.bin/"phpize"
     system "./configure", *configure_args
     system "make"
