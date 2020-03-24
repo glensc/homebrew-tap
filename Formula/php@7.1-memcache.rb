@@ -1,6 +1,6 @@
-require File.expand_path("../lib/php_extension_formula", __dir__)
+require_relative "../lib/php_pecl_formula"
 
-class PhpAT71Memcache < PhpExtensionFormula
+class PhpAT71Memcache < PhpPeclFormula
   extension_dsl "Memcache Extension"
 
   url "https://github.com/websupport-sk/pecl-memcache/archive/e702b5f91/memcache-3.0.9-e702b5f91.tar.gz"
