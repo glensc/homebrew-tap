@@ -1,6 +1,6 @@
-require_relative "../lib/php_extension_formula"
+require_relative "../lib/php_pecl_formula"
 
-class PhpAT71Imagick < PhpExtensionFormula
+class PhpAT71Imagick < PhpPeclFormula
   extension_dsl "Create and modify images using the ImageMagick API"
 
   url "https://pecl.php.net/get/imagick-3.4.4.tgz"
