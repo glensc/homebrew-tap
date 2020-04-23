@@ -19,5 +19,7 @@ class Megacmd < Formula
     (buildpath/"sdk").install resource("sdk")
 
     system "autoreconf", "-fi"
+    system "./configure"
+    system "make"
   end
 end
