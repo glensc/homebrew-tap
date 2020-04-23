@@ -8,6 +8,10 @@ class Megacmd < Formula
   depends_on "autoconf" => :build
   depends_on "automake" => :build
   depends_on "libtool" => :build
+  depends_on "cryptopp"
+  depends_on "freeimage"
+  depends_on "openssl"
+  depends_on "readline"
 
   resource "sdk" do
     url "https://github.com/meganz/sdk/archive/de4ff325d/mega-sdk-v3.5.3-1921-gde4ff325d.tar.gz"
