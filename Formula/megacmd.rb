@@ -9,8 +9,15 @@ class Megacmd < Formula
   depends_on "automake" => :build
   depends_on "libtool" => :build
 
+  resource "sdk" do
+    url "https://github.com/meganz/sdk/archive/de4ff325d/mega-sdk-v3.5.3-1921-gde4ff325d.tar.gz"
+    sha256 "f3f0559c5e26a06c168a59c87bff383e0c54e89b484d74224f2b41ea3a22ae98"
+  end
+
   # https://github.com/meganz/MEGAcmd#building-megacmd
   def install
+    (buildpath/"sdk").install resource("sdk")
+
     system "autoreconf", "-fi"
   end
 end
