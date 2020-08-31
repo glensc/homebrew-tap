@@ -4,7 +4,7 @@ class PhpAT73Mysql < PhpPeclFormula
   extension_dsl "MySQL Extension"
   version '1.0.0-dev'
 
-  url "http://git.php.net/?p=pecl/database/mysql.git;a=snapshot;h=d7643af829314142e1edf07fb36c7ab0515f8bd5;sf=tgz"
+  url "http://distfiles.pld-linux.org/distfiles/by-md5/c/d/cd885ae5b99f265eb08d6a087ed2b549/php-pecl-mysql-1.0.0-d7643af.tar.gz"
   sha256 "1d921bdf76e84d7e4867326bacc6d2cb9b01e14b17f6adc88a17677738586bec"
 
   patch do
