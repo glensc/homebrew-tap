@@ -1,7 +1,7 @@
 require_relative "../lib/php_pecl_formula"
 
 class PhpAT73Mysql < PhpPeclFormula
-  extension_dsl "Memcache Extension"
+  extension_dsl "MySQL Extension"
   version '1.0.0-dev'
 
   url "http://git.php.net/?p=pecl/database/mysql.git;a=snapshot;h=d7643af829314142e1edf07fb36c7ab0515f8bd5;sf=tgz"
