@@ -16,5 +16,6 @@ brew install glensc/tap/php@7.1-spx
 brew install glensc/tap/php@7.3-mysql
 brew install glensc/tap/php@7.3-mcrypt
 brew install glensc/tap/vcpkg
+brew install glensc/tap/node@8
 brew cask install glensc/tap/eid-ee
 ```
