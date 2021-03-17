@@ -1,5 +1,9 @@
 # Extra Homebrew Formulas
 
+The formulas here are for old versions, or because they did not get accepted in homebrew core, or retired from homebrew core.
+
+The formulas receive no updates, but pull requests updating to newer version are accepted.
+
 To setup use this Tap:
 ```
 brew tap glensc/tap
