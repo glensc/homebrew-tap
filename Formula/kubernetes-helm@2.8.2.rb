@@ -12,16 +12,6 @@ class KubernetesHelmAT282 < Formula
     "kubernetes-helm"
   end
 
-  bottle do
-    # force "bottles" subdir for download
-    # https://github.com/glensc/homebrew-tap/pull/1#issuecomment-486371612
-    root_url "https://homebrew.bintray.com/bottles"
-
-    sha256 cellar: :any_skip_relocation, "c105b8e5e29febdaa4e71d4d418550f87d13a75d6585b84e93958c2409ef2723" => :high_sierra
-    sha256 cellar: :any_skip_relocation, "101dff96d86c4725437619fc8c1b3691cdcefdddfeacd230559fde2e256f479f" => :sierra
-    sha256 cellar: :any_skip_relocation, "ea87d059e4eadb526c3dd12857a4f07cae0080af538a656d04f6617f7cb191b1" => :el_capitan
-  end
-
   depends_on "mercurial" => :build
   depends_on "go" => :build
   depends_on "glide" => :build
