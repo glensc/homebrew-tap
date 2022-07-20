@@ -11,7 +11,7 @@ class Proxysql < Formula
   depends_on "openssl"
 
   def install
-    system "make"
+    system "make", "GIT_VERSION=#{version}"
     # Currently, the Proxysql build system uses fixed paths for install locations.
     # See https://github.com/sysown/proxysql/blob/master/Makefile
     # The 'make install' target would need to be patched to support Homebrew.
