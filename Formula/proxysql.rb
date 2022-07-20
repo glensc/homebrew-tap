@@ -1,8 +1,8 @@
 class Proxysql < Formula
   desc "High Performance Advanced Proxy for MySQL"
   homepage "http://www.proxysql.com/"
-  url "https://github.com/sysown/proxysql/archive/v1.4.11.tar.gz"
-  sha256 "9d34be2916e4b341820d2e9346a4697464e70d6ae1fb2a0761006299c96067c8"
+  url "https://github.com/sysown/proxysql/archive/v2.4.2.tar.gz"
+  sha256 "8e8a598f5d99f71dbba672c65a1102dd22a9a452e59dd0322bec4909b095eba0"
 
   # Build dependencies listed here: https://github.com/sysown/proxysql/blob/master/INSTALL.md
   depends_on "automake" => :build
