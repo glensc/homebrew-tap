@@ -5,7 +5,9 @@ The formulas here are for old versions, or because they did not get accepted in 
 The formulas receive no updates, but pull requests updating to newer version are accepted.
 
 To setup use this Tap:
+
 ```
+brew tap shivammathur/php
 brew tap glensc/tap
 ```
 
