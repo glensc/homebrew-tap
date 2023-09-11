@@ -74,7 +74,8 @@ class PhpPeclFormula < Formula
       if m[1].nil?
         parent_name = "php"
       else
-        parent_name = "php@#{m.captures[0..1].join(".")}"
+        php_name = m.captures[0].to_i < 8 ? "shivammathur/php/php" : "php"
+        parent_name = "#{php_name}@#{m.captures[0..1].join(".")}"
         keg_only :versioned_formula
       end
 
