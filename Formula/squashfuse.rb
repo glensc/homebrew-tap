@@ -13,7 +13,7 @@ class Squashfuse < Formula
   depends_on "zstd"
 
   on_macos do
-    depends_on cask: "macfuse"
+    depends_on "macfuse"
   end
 
   on_linux do
